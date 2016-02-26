@@ -1,0 +1,20 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+Using the diff tool made it incredibly easy to pinpoint the differences between two files. Instead of looking line by line, the tool found the differences for me automatically. At that point, all I needed to do was resolve the difference between the two files.
+
+How could having easy acces to the entire history of a file make you a more efficient programmer in the long term?
+Efficiency is really all about saving time. By having access to the entire history of a file, you have the ability to see when and where changes were made. This is HUGE for debugging. Plus, if there is ever a need to backup to a previous state to solve a problem, then having access to previous versions of a file is a life-saver.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+Simple, user error. Humans are human and we can forget things. Without having the application make saves automatically, there is chance we forget to make a save when we should. However, if you are delegent about saving at logical checkpoints, then I don't think this is a problem. Having the ability to manually save far outweights the flexibility of just auto-saving.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+Git was designed with code in mind. It is very common to need to change multiple files when working on code, so being able to save multiple files in a comment makes sense. On the other hand, programs like Google Drive were designed with one file in mind (document, sheet, presentation, etc.), so it handles version control very well for working in one file.
+
+How can you use the commands git log and git diff to view history of files?
+git log allows you to get a snapshot of every commit that has happened on the repository. you can also pass the flag --stat to get additional information about how many lines were added/removed from files. git diff allows you to compare the differences between files from two different commits so you can see what changed.
+
+How might using version control make you more confident to make changes that could break something?
+If you break something, you can always revert back to a previous commit when the code was working correctly!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+Everything... well every code project I've worked on.
