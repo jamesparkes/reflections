@@ -10,3 +10,12 @@ Because the staging area is the temporary holding place for files that have chan
 What are some situations when branches would be helpful in keeping your history organized? How would branches help?
 Branches would seem to be the most helpful when your code base is might be undergoing a serious change. For example, an experimental feature or a complete refactor of a main component.
 
+How do the diagrams help you visualize the branch structure?
+By having diagrams, it is easier to when development "branched" off into a different direction. It is also helpful for explaining the concept of detached HEAD.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+By merging the two branches, the code that was added after the second branch was separated from the master branch is merged back with the master branch and also includes any code updates the master branch had too. By seeing this in the diagram, you can visualize how the commit history is not lost during the merge because the merge creates a new commit that points back to the commits from both branches.
+ 
+What are the prons and cons of Git's automatic merging vs. always doing merges manually?
+It's possible Git's automatic merging introduces a bug in the code when merging two files together. When you manually merge, you are forced to look at the code to make sure everything looks good, but when automatically merging that doesn't happen.
+ 
