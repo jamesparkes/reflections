@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+When sharing your project with others. By hosting a project on a service like GitHub, then other people can access your repository and contribute.
+
