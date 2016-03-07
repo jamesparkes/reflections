@@ -6,3 +6,19 @@ Why might you want to always pull changes manually rather than having Git automa
 
 If you are collaborating with other people, then pulling changes automatically could break whatever you have staged and are working with inside your local repository.
 
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+
+Forks are copies of another GitHub repository. You would use a fork when you want to work from a repository, but not commit your changes directly to that repository. Clones are direct copies from a repository. When you clone, you are making a copy that you can push and pull directly to and from. Branches are deviations from the master branch used when you are making a bigger modification from the stable branch. You would use a branch when working on a big fix, creating a new feature, or experimenting.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+Then, your local repository knows the point at which it matched the remote. Any changes to the local repository moving forward have deviated from the last known state of the remote.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+There are other version control technologies like SVN, and other hosting platforms like BitBucket, but I prefer to use Git and GitHub. Without Git and GitHub, there are probably other stacks that would work; however, if I wasn't using a version control system at all, then collaborating would be much more difficult.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+It would be a good idea to create a separate branch when working on a new feature, experimenting, or fixing a bug. This is helpful because when it becomes time to create a pull request and merge those changes with the stable, master branch, then users can review the changes in the branch and determine if everything looks good before making the changes.
+
